@@ -11,7 +11,7 @@
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
-    "webpack": "^4.16.4"
+    "webpack": "^4.16.5"
   },
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "version": "1.0.0",
@@ -22,12 +22,20 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --watch"
+    "webpack": "webpack --watch --mode=development"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "webpack-cli": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanYu4/W8D1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JordanYu4/W8D1/issues"
+  },
+  "homepage": "https://github.com/JordanYu4/W8D1#readme"
 }
